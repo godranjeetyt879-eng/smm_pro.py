@@ -76,8 +76,8 @@ const DB_PATH = process.env.DB_PATH || path.join(__dirname, 'database.json');
 const DEFAULTS = {
   TOKEN        : process.env.BOT_TOKEN  || '8722265017:AAFyh9oCUyuE8JvbUnrWQuO6e_TITkZNG8s',
   ADMIN        : parseInt(process.env.ADMIN_ID || '6106058051'),
-  API_URL      : process.env.SMM_API_URL || 'https://nixonsmm.com/api/v2',
-  API_KEY      : process.env.SMM_API_KEY || '9c3841414ec740b563beed8adfbe9dff',
+  API_URL      : process.env.SMM_API_URL || 'https://vcsmmpanel.shop/api/v2',
+  API_KEY      : process.env.SMM_API_KEY || '77ccb73fe71d6f94a2ab77e16e567f9a',
   UPI_ID       : '7393028514@fam',
   UPI_NAME     : 'BINDU DEVI',
   FORCE_CHANNEL: '@DARK_SMM_panel',
