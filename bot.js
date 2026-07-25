@@ -89,8 +89,8 @@ const DEFAULTS = {
   REF_PCT      : 5,
   MIN_RECHARGE : 10,
   // Payment Gateway
-  GATEWAY_URL  : process.env.GATEWAY_URL  || 'https://vcapi.vcstore.site/payment_api.php',
-  GATEWAY_KEY  : process.env.GATEWAY_KEY  || 'PAYA3B2966DB33B0E291AA06593',
+  GATEWAY_URL  : process.env.GATEWAY_URL  || 'https://bot-py-whfy.onrender.com',
+  GATEWAY_KEY  : process.env.GATEWAY_KEY  || 'abc123',
   // Crypto (add your addresses here or set env vars)
   CRYPTO_BEP20     : process.env.CRYPTO_BEP20 || '',
   CRYPTO_TRC20     : process.env.CRYPTO_TRC20 || 'TN5eZootRzsgxthEckWoNxNHiEM5CuZb8y',
