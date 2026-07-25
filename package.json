@@ -1,0 +1,20 @@
+{
+  "name": "nexus-smm-bot",
+  "version": "16.0.0",
+  "description": "NEXUS SMM Panel Telegram Bot",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "build": "npm install"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.66.0",
+    "axios": "^1.6.0",
+    "mongoose": "^8.0.0",
+    "imap": "^0.8.19",
+    "mailparser": "^3.6.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
