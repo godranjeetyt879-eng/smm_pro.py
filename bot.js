@@ -82,7 +82,7 @@ connectMongo().catch(e => {
 //  HARDCODED DEFAULTS (sirf fallback ke liye)
 // ──────────────────────────────────────────────
 const DEFAULTS = {
-  TOKEN        : process.env.BOT_TOKEN  || '8722265017:AAFyh9oCUyuE8JvbUnrWQuO6e_TITkZNG8s',
+  TOKEN        : process.env.BOT_TOKEN  || '8329631725:AAEEH5lG9gDFfeEOlUWWCRijWE1va4iL5DA',
   ADMIN        : parseInt(process.env.ADMIN_ID || '6106058051'),
   API_URL      : process.env.SMM_API_URL || 'https://vcprovider.shop/api/v2',
   API_KEY      : process.env.SMM_API_KEY || '64c015cb0bb2f4b5a3850c80cad47c82',
