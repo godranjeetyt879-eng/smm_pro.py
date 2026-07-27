@@ -2095,7 +2095,7 @@ async function placeOrderFinal(uid,data,C) {
     `🔢 Qty: ${data.qty} | 💰 ₹${data.cost}\n` +
     `💳 Balance: ₹${user.balance.toFixed(2)}\n` +
     `📅 ${new Date().toLocaleString('en-IN')}`,
-    {reply_markup:{inline_keyboard:[[{text:'🚀 Order Now',url:'https://t.me/SMM_PANEL_CHEEP_ROBOT'}]]}}
+    {reply_markup:{inline_keyboard:[[{text:'🚀 Order Now',url:'https://t.me/Fan_SMM_Robot'}]]}}
   );
 }
 
